@@ -1,4 +1,4 @@
-var objRef = function objRef(obj, path, separator){
+var objRef = function objRef(obj, path, separator, buildPath){
 	if (typeof separator !== 'string'){
 		separator = '/';
 	}
@@ -6,7 +6,16 @@ var objRef = function objRef(obj, path, separator){
 	var ref = obj;
 	
 	for(var i=0; i<path.length; ++i){
-		ref = ref[path[i]];
+		var prop = path[i];
+		if (typeof ref[prop] === 'undefined'){
+			if (buildPath){
+				ref[prop] = {};
+			}
+			else{
+				throw new Error ('Invalid path');
+			}
+		}
+		ref = ref[prop];
 	}
 	
 	return ref;
