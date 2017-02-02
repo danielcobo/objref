@@ -6,7 +6,7 @@ var objRef = function objRef(obj, path, separator){
 	var ref = obj;
 	
 	for(var i=0; i<path.length; ++i){
-		ref = obj[path[i]];
+		ref = ref[path[i]];
 	}
 	
 	return ref;
