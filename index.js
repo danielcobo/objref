@@ -1,4 +1,6 @@
-var objRef = function objRef(obj, path, separator, buildPath){
+'use strict';
+
+module.exports = function objRef(obj, path, separator, buildPath){
 	if (typeof separator !== 'string'){
 		separator = '/';
 	}
