@@ -1,0 +1,31 @@
+{
+  "name": "objref",
+  "version": "1.0.0",
+  "description": "Returns deep property of an object via a string path",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcobo/objRef.git"
+  },
+  "keywords": [
+    "object",
+    "reference",
+    "utility"
+  ],
+  "author": "TidySource (Daniel Cobo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielcobo/objRef/issues"
+  },
+  "homepage": "https://github.com/danielcobo/objRef#readme",
+  "devDependencies": {
+    "tap-colorize": "^1.2.0",
+    "tape": "^4.6.3"
+  }
+}
