@@ -10,7 +10,6 @@ Returns a reference to an object value
 | buildRef      | `boolean` or `undefined` | option to build reference                                                |
 
 ## Examples
-
 ```javascript
 //Example object
 var a = {
