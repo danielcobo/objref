@@ -1,31 +1,45 @@
 {
-  "name": "objref",
-  "version": "1.0.0",
-  "description": "Returns deep property of an object via a string path",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "tape test/*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danielcobo/objRef.git"
-  },
-  "keywords": [
-    "object",
-    "reference",
-    "utility"
-  ],
-  "author": "TidySource (Daniel Cobo)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/danielcobo/objRef/issues"
-  },
-  "homepage": "https://github.com/danielcobo/objRef#readme",
-  "devDependencies": {
-    "tap-colorize": "^1.2.0",
-    "tape": "^4.6.3"
-  }
+ "name": "@danielcobo/objref",
+ "version": "1.0.0",
+ "description": "Returns deep property of an object via a string path",
+ "main": "src/index.js",
+ "directories": {
+  "test": "test"
+ },
+ "scripts": {
+  "test": "jest --collectCoverage",
+  "testing": "jest --watch --collectCoverage",
+  "mutation": "npx stryker run",
+  "docs": "docs",
+  "patch": "git push && npm version patch && npm publish",
+  "minor": "git push && npm version minor && npm publish",
+  "major": "git push && npm version major && npm publish",
+  "prepublishOnly": "./node_modules/.bin/rollup -c"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/danielcobo/objRef.git"
+ },
+ "keywords": [
+  "object",
+  "reference",
+  "utility"
+ ],
+ "author": "Daniel Cobo",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/danielcobo/objRef/issues"
+ },
+ "homepage": "https://github.com/danielcobo/objRef#readme",
+ "devDependencies": {
+  "@danielcobo/docs": "^1.0.16",
+  "@rollup/plugin-commonjs": "^20.0.0",
+  "@rollup/plugin-node-resolve": "^13.0.4",
+  "@stryker-mutator/core": "^5.4.1",
+  "@stryker-mutator/jest-runner": "^5.4.1",
+  "jest": "^27.2.5",
+  "rollup": "^2.58.3",
+  "rollup-plugin-terser": "^7.0.2"
+ },
+ "dependencies": {}
 }
