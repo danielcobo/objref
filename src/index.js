@@ -4,7 +4,7 @@
  * @param {Object} obj - data object
  * @param {string} path - reference path
  * @param {string} [separator='/'] - separator used in path
- * @param {boolean} buildPath - true/false to define undefined object subpaths
+ * @param {boolean} [buildPath=false] - true/false to define undefined object subpaths
  * @returns
  */
 module.exports = function objRef(obj, path, separator, buildPath) {
