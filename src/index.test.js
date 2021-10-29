@@ -25,6 +25,15 @@ test('objRef() - buildPath', function () {
   expect(a.b.c.f).toStrictEqual(100);
 });
 
+test('objRef() - refernce', function () {
+  let c = objRef(a, 'b/c');
+  c = 100;
+  expect(a.b.c).not.toStrictEqual(100);
+  let ab = objRef(a, 'b/c');
+  ab.c = 100;
+  expect(ab.c).toStrictEqual(100);
+});
+
 test('objRef() - invalid path', function () {
   expect(() => objRef(a, 'b/wrongpath')).toThrow('Invalid path');
 });
