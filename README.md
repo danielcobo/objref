@@ -1,6 +1,6 @@
 # objref
 
-Returns deep property of an object via a string path
+Get deep property of an object via a string path
 
 ## 🧭 Table of contents
 
@@ -15,9 +15,8 @@ Returns deep property of an object via a string path
 
 ## ✨ Benefits
 
-- [x] Why?
-- [x] Better than what?
-- [x] Quickwin
+- [x] No loops for dynamic access to deep property values
+- [x] Better readability than loops or even multiple brackets
 
 ## 🎒 Requierments
 
