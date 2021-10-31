@@ -107,11 +107,11 @@ Get deep property of an object via a string path
 | ---- | ----------- |
 | `` |  |
 
-<sub>**Source:** [src/index.js:1](https://github.com/danielcobo/objRef/blob/master/src/index.js?plain=1#L1)</sub>
+<sub>**Source:** [src/index.js:1](https://github.com/danielcobo/objref/blob/master/src/index.js?plain=1#L1)</sub>
 
 ## 🆘 Troubleshooting
 
-If you run into trouble or have questions just [submit an issue](https://github.com/danielcobo/objRef/issues).
+If you run into trouble or have questions just [submit an issue](https://github.com/danielcobo/objref/issues).
 
 ## 🤝 Contributing
 
@@ -157,4 +157,4 @@ If you intend to develop further or contribute code, then please ensure to write
 
 ## ⚖️ License
 
-[MIT License](https://github.com/danielcobo/objRef/blob/master/LICENSE.md)
+[MIT License](https://github.com/danielcobo/objref/blob/master/LICENSE.md)

@@ -1,6 +1,6 @@
 Copyright Daniel Cobo and other contributors
 
-This software may consist of voluntary contributions made by many individuals. For exact contribution history, see the revision history available at https://github.com/danielcobo/objRef
+This software may consist of voluntary contributions made by many individuals. For exact contribution history, see the revision history available at https://github.com/danielcobo/objref
 
 The following license applies to all parts of this software except as documented below:
 

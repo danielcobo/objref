@@ -18,7 +18,7 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/danielcobo/objRef.git"
+  "url": "git+https://github.com/danielcobo/objref.git"
  },
  "keywords": [
   "object",
@@ -28,9 +28,9 @@
  "author": "Daniel Cobo",
  "license": "MIT",
  "bugs": {
-  "url": "https://github.com/danielcobo/objRef/issues"
+  "url": "https://github.com/danielcobo/objref/issues"
  },
- "homepage": "https://github.com/danielcobo/objRef#readme",
+ "homepage": "https://github.com/danielcobo/objref#readme",
  "devDependencies": {
   "@danielcobo/docs": "^1.0.18",
   "@rollup/plugin-commonjs": "^20.0.0",
