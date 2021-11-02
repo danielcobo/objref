@@ -1,6 +1,6 @@
 {
  "name": "@danielcobo/objref",
- "version": "1.0.2",
+ "version": "1.0.3",
  "description": "Get deep property of an object via a string path",
  "main": "src/index.js",
  "directories": {
