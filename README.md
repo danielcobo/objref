@@ -47,13 +47,13 @@ const objref = require('@danielcobo/objref');
 Declare it as a global variable named objref by including this script before any script you want to use it in:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@danielcobo/objref@1/dist/iife/bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@danielcobo/objref@1/dist/iife/objref.min.js"></script>
 ```
 
 Or import it as an [ECMAScript module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import):
 
 ```js
-import * as objref from 'https://cdn.jsdelivr.net/npm/@danielcobo/objref@1/dist/esm/bundle.min.js';
+import * as objref from 'https://cdn.jsdelivr.net/npm/@danielcobo/objref@1/dist/esm/objref.min.js';
 ```
 
 Also, feel free to download the file if you prefer not to use [jsdelivr](https://www.jsdelivr.com). In that case just replace the url with the relative file path.
