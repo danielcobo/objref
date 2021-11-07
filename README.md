@@ -105,7 +105,7 @@ Get deep property of an object via a string path
 #### Returns
 | Type | Description |
 | ---- | ----------- |
-| `` |  |
+| `*` | Deep property value |
 
 <sub>**Source:** [src/index.js:1](https://github.com/danielcobo/objref/blob/master/src/index.js?plain=1#L1)</sub>
 

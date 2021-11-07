@@ -5,7 +5,7 @@
  * @param {string} path - reference path
  * @param {string} [separator='/'] - separator used in path
  * @param {boolean} [buildPath=false] - true/false to define undefined object subpaths
- * @returns
+ * @returns {*} - deep property value
  */
 module.exports = function objRef(obj, path, separator, buildPath) {
   if (typeof separator !== 'string') {
